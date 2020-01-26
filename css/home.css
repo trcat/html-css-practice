@@ -1,0 +1,116 @@
+body {
+  background-color: burlywood;
+}
+
+#header {
+  border: mediumslateblue dotted 1px;
+  min-height: 500px;
+  position: relative;
+}
+#header * {
+  box-sizing: border-box;
+}
+#header .min-header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 56px;
+}
+#header .min-header .min-header-content {
+  margin: 0, auto;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+#header .min-header .min-header-content .nav-link {
+  flex-shrink: 0;
+}
+#header .min-header .min-header-content .nav-link .nav-link-ul {
+  display: flex;
+  height: 36px;
+  align-items: center;
+}
+#header .min-header .min-header-content .nav-link .nav-link-ul .nav-link-item {
+  margin-right: 12px;
+}
+#header .min-header .min-header-content .nav-link .nav-link-ul .nav-link-item .link {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+#header .min-header .min-header-content .nav-search-box {
+  width: 500px;
+  margin: 0 10px;
+}
+#header .min-header .min-header-content .nav-search-box .nav-search {
+  position: relative;
+}
+#header .min-header .min-header-content .nav-search-box .nav-search .nav-searchform {
+  display: block;
+  padding: 0 38px 0 16px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  background-color: white;
+}
+#header .min-header .min-header-content .nav-search-box .nav-search .nav-searchform .nav-search-keyword {
+  height: 34px;
+  width: 100%;
+  border: none;
+}
+#header .min-header .min-header-content .nav-search-box .nav-search .nav-searchform .nav-search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+#header .min-header .min-header-content .nav-search-box .nav-search .nav-searchform .nav-search-btn .nav-search-submit {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  background: none;
+}
+#header .min-header .min-header-content .nav-user-center {
+  display: flex;
+  flex-shrink: 0;
+}
+#header .min-header .min-header-content .nav-user-center .user {
+  display: flex;
+  align-items: center;
+}
+#header .min-header .min-header-content .nav-user-center .user .item {
+  margin-right: 12px;
+}
+#header .min-header .min-header-content .nav-user-center .user .item .context {
+  color: white;
+  font-size: 14px;
+}
+#header .min-header .min-header-content .nav-user-center .upload .upload-btn .upload-submit {
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  height: 36px;
+  color: white;
+  background-color: #fb7299;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14p;
+  border-radius: 2px;
+}
+#header #banner {
+  height: 9vw;
+  background: maroon;
+  min-width: 999px;
+  min-height: 155px;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=home.css.map */
